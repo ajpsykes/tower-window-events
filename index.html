@@ -17,7 +17,7 @@
       --base:          #F7F8F2;
       --neutral:       #5E7A78;
       --card-bg:       #FDFAF5;
-      --card-tint:     var(--accent-light);
+      --card-tint:     color-mix(in srgb, var(--accent-light) 25%, white);
       --card-border:   rgba(30,30,30,0.07);
       --footer-bg:     #063A4A;
       --footer-text:   #A8C0C0;
@@ -112,7 +112,7 @@
 </section>
 <div class="count-strip">
   <div class="count-inner">
-    <div class="count-item"><strong>82</strong><span>events this week</span></div>
+    <div class="count-item"><strong>80</strong><span>events this week</span></div>
     <div class="count-sep"></div>
     <div class="count-item"><strong>5</strong><span>categories</span></div>
     <div class="count-sep"></div>
@@ -129,19 +129,6 @@
   <div class="cat-cards">
 <a href="https://thereg.ie/events/" class="event-card">
   <div class="event-main">
-    <p class="event-title">Live Music Tuesdays with Tom Comerford</p>
-    <div class="event-meta">
-      <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Tue 24 Mar [21:00]</span>
-      <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>The Reg Waterford</span>
-    </div>
-  </div>
-  <div class="event-actions">
-    
-    <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-  </div>
-</a>
-<a href="https://thereg.ie/events/" class="event-card tint">
-  <div class="event-main">
     <p class="event-title">Live Music Wednesdays</p>
     <div class="event-meta">
       <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Wed 25 Mar [21:00]</span>
@@ -153,7 +140,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://entertainment.ie/events/listing/all/waterford/" class="event-card">
+<a href="https://entertainment.ie/events/listing/all/waterford/" class="event-card tint">
   <div class="event-main">
     <p class="event-title">Sinéad Farrell Trio</p>
     <div class="event-meta">
@@ -166,7 +153,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://ie.powertik.com/en/events/the-sinead-farrell-trio/sessions/25-03-2026-19-30-dr-mary-strangman-large-room" class="event-card tint">
+<a href="https://ie.powertik.com/en/events/the-sinead-farrell-trio/sessions/25-03-2026-19-30-dr-mary-strangman-large-room" class="event-card">
   <div class="event-main">
     <p class="event-title">The Sinead Farrell Trio</p>
     <div class="event-meta">
@@ -179,7 +166,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://thereg.ie/events/" class="event-card">
+<a href="https://thereg.ie/events/" class="event-card tint">
   <div class="event-main">
     <p class="event-title">Live Music Thursdays with Tom Comerford</p>
     <div class="event-meta">
@@ -192,7 +179,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://www.eventbrite.ie/e/bone-machine-the-music-of-tom-waits-tickets-1977923796319?aff=oddtdtcreator" class="event-card tint">
+<a href="https://www.eventbrite.ie/e/bone-machine-the-music-of-tom-waits-tickets-1977923796319?aff=oddtdtcreator" class="event-card">
   <div class="event-main">
     <p class="event-title">Bone Machine - The Music of Tom Waits</p>
     <div class="event-meta">
@@ -205,7 +192,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://allevents.in/waterford/this-weekend" class="event-card">
+<a href="https://allevents.in/waterford/this-weekend" class="event-card tint">
   <div class="event-main">
     <p class="event-title">Evening With Liverpool Legends</p>
     <div class="event-meta">
@@ -218,7 +205,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://ie.powertik.com/en/events/knives-live-at-luca-records/sessions/27-03-2026-20-00-luca-records-and-decks" class="event-card tint">
+<a href="https://ie.powertik.com/en/events/knives-live-at-luca-records/sessions/27-03-2026-20-00-luca-records-and-decks" class="event-card">
   <div class="event-main">
     <p class="event-title">Knives</p>
     <div class="event-meta">
@@ -231,7 +218,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://theatreroyal.ie/shows/" class="event-card">
+<a href="https://theatreroyal.ie/shows/" class="event-card tint">
   <div class="event-main">
     <p class="event-title">Kyla Cobbler: Not My Lemons</p>
     <div class="event-meta">
@@ -244,7 +231,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://allevents.in/waterford/this-weekend" class="event-card tint">
+<a href="https://allevents.in/waterford/this-weekend" class="event-card">
   <div class="event-main">
     <p class="event-title">BAILE DA 051</p>
     <div class="event-meta">
@@ -257,7 +244,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://allevents.in/waterford/this-weekend" class="event-card">
+<a href="https://allevents.in/waterford/this-weekend" class="event-card tint">
   <div class="event-main">
     <p class="event-title">GREENE &amp; SHINE at Aggie Hayes'</p>
     <div class="event-meta">
@@ -270,7 +257,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://allevents.in/waterford/this-weekend" class="event-card tint">
+<a href="https://allevents.in/waterford/this-weekend" class="event-card">
   <div class="event-main">
     <p class="event-title">90’s &amp; 00’s HOUSE MUSIC NIGHT</p>
     <div class="event-meta">
@@ -283,7 +270,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://entertainment.ie/events/listing/all/waterford/" class="event-card">
+<a href="https://entertainment.ie/events/listing/all/waterford/" class="event-card tint">
   <div class="event-main">
     <p class="event-title">Kyla Cobbler</p>
     <div class="event-meta">
@@ -296,7 +283,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://www.mcd.ie/artists/kyla-cobbler" class="event-card tint">
+<a href="https://www.mcd.ie/artists/kyla-cobbler" class="event-card">
   <div class="event-main">
     <p class="event-title">Kyla Cobbler at Theatre Royal</p>
     <div class="event-meta">
@@ -309,7 +296,7 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://theatreroyal.ie/shows/" class="event-card">
+<a href="https://theatreroyal.ie/shows/" class="event-card tint">
   <div class="event-main">
     <p class="event-title">The Legends of American Country</p>
     <div class="event-meta">
@@ -322,11 +309,24 @@
     <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
   </div>
 </a>
-<a href="https://thereg.ie/events/" class="event-card tint">
+<a href="https://thereg.ie/events/" class="event-card">
   <div class="event-main">
     <p class="event-title">Live Music Mondays with Anthony Roche</p>
     <div class="event-meta">
       <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Mon 30 Mar [21:00]</span>
+      <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>The Reg Waterford</span>
+    </div>
+  </div>
+  <div class="event-actions">
+    
+    <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+  </div>
+</a>
+<a href="https://thereg.ie/events/" class="event-card tint">
+  <div class="event-main">
+    <p class="event-title">Live Music Tuesdays with Tom Comerford</p>
+    <div class="event-meta">
+      <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Tue 31 Mar [21:00]</span>
       <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>The Reg Waterford</span>
     </div>
   </div>
@@ -439,7 +439,7 @@
   <div class="event-main">
     <p class="event-title">Outlandish</p>
     <div class="event-meta">
-      <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Tue 24 Mar [10:00]</span>
+      <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Wed 25 Mar [10:00]</span>
       <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Garter Lane Arts Centre</span>
     </div>
   </div>
@@ -836,35 +836,9 @@
 <section class="cat-section">
   <div class="cat-strip">
     <div class="cat-strip-left"><div class="cat-bar"></div><span class="cat-name">Other</span></div>
-    <span class="cat-count">30 events</span>
+    <span class="cat-count">28 events</span>
   </div>
   <div class="cat-cards">
-<a href="https://garterlane.ie/events/" class="event-card">
-  <div class="event-main">
-    <p class="event-title">Waterford Film For All presents Late Shift</p>
-    <div class="event-meta">
-      <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Tue 24 Mar [19:30]</span>
-      <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Garter Lane Arts Centre</span>
-    </div>
-  </div>
-  <div class="event-actions">
-    <span class="badge-price">€9.00/€7.50 Concessions (incl. booking fee)</span>
-    <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-  </div>
-</a>
-<a href="https://www.meetup.com/find/ie--waterford/" class="event-card tint">
-  <div class="event-main">
-    <p class="event-title">Let's play - Ongoing Adventure!</p>
-    <div class="event-meta">
-      <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Tue 24 Mar [19:00]</span>
-      <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Waterford Dungeons &amp; Dragons Meetup</span>
-    </div>
-  </div>
-  <div class="event-actions">
-    
-    <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-  </div>
-</a>
 <a href="https://garterlane.ie/events/" class="event-card">
   <div class="event-main">
     <p class="event-title">EOS Presents : Turner &amp; Constable</p>
@@ -1242,7 +1216,7 @@
         <a href="https://www.towerwindow.ie" class="footer-btn"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>Subscribe free</a>
       </div>
       <div class="footer-stats">
-        <div class="stat-card"><p class="stat-num">82</p><p class="stat-label">Events this week</p></div>
+        <div class="stat-card"><p class="stat-num">80</p><p class="stat-label">Events this week</p></div>
         <div class="stat-card"><p class="stat-num">9</p><p class="stat-label">Free to attend</p></div>
         <div class="stat-card"><p class="stat-num">5</p><p class="stat-label">Categories</p></div>
         <div class="stat-card"><p class="stat-num">Waterford</p><p class="stat-label">Your area</p></div>
